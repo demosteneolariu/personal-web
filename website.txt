@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demostene Olariu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        section {
+            padding: 20px 0;
+            border-bottom: #ccc 1px solid;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        .dark {
+            background: #333;
+            color: #fff;
+            padding: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Demostene Olariu</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#despre-mine">Despre Mine</a></li>
+                    <li><a href="#proiecte-initiative">Proiecte și Inițiative</a></li>
+                    <li><a href="#evenimente">Evenimente</a></li>
+                    <li><a href="#diplome-certificari">Diplome și Certificări</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="despre-mine" class="container">
+        <h2>Despre Mine</h2>
+        <p>Sunt DEMOSTENE Olariu, CEO al Centrului Internațional de Studii Diplomatice ICDS - Oslo și Președinte al Organizației Internaționale pentru Democrație și Drepturile Omului IODHR - Norvegia. Sunt expert în promovarea conceptelor convențiilor internaționale prin realizarea de proiecte practice, în special cele referitoare la autodeterminarea de garantare a privilegiilor, protecția minorităților și a refugiaților, drepturile copiilor și femeilor, protecția împotriva sclaviei și practicilor similare, drepturile persoanelor revocate sau a celor aflați în închisoare, protecție împotriva torturii și a altor tratamente inumane, dreptul la pace și intimitate, drepturile persoanelor cu dizabilități și, de asemenea, pledez pentru prevenirea crimelor de război și a crimelor împotriva umanității și a genocidului, dezvoltând concepte de drept internațional al umanitarismului și să urmăresc implementarea în încorporarea statutelor Națiunilor Unite.</p>
+    </section>
+
+    <section id="proiecte-initiative" class="container">
+        <h2>Proiecte și Inițiative</h2>
+        <p>Descrierea proiectelor în care sunt implicat, rezultatele obținute, parteneriate importante...</p>
+        <!-- Adaugă detalii specifice proiectelor și inițiativelor aici -->
+    </section>
+
+    <section id="evenimente" class="container">
+        <h2>Evenimente</h2>
+        <p>Detalii despre evenimentele și proiectele la care am participat...</p>
+        <!-- Adaugă detalii despre evenimentele și proiectele la care ai participat aici -->
+    </section>
+
+    <section id="diplome-certificari" class="container">
+        <h2>Diplome și Certificări</h2>
+        <p>Diplome, Certificate și Merite acordate, Titluri onorifice Honoris Causa și Lord...</p>
+        <!-- Adaugă detalii despre diplome și certificări aici -->
+    </section>
+
+    <footer>
+        <p>Demostene Olariu &copy; 2024</p>
+    </footer>
+</body>
+</html>
